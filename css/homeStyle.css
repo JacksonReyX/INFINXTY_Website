@@ -1,0 +1,210 @@
+.innerHeader {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.logoContainer {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logoContainer h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'fantasy', papyrus;
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
+}
+
+.logoContainer h1 span{
+    font-weight: 800;
+}
+
+.navigation {
+    float:left;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+
+.navigation a:hover{
+    background-color: rgb(0, 0, 0);
+    transition: background-color 0.3s ease;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    font-family: 'fantasy', papyrus;
+    text-shadow: 16px 16px 32px rgb(74, 74, 74);
+    font-size: 16px;
+}
+
+
+.rosaryHeader{
+    width:100%;
+    height: 100px;
+    display: block;
+    margin: 0px auto;
+  }
+
+  .infinxtyName {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'fantasy', papyrus;
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: 'fantasy', papyrus;
+    margin-bottom: 0px;
+  }
+
+  .infinxtylogo{
+    width: 35%;
+    height: auto;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+  }
+
+  .p{
+    color : white;
+    text-shadow: 2px 2px 4px black;
+    font-family: 'fantasy', papyrus;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 200px;
+  }
+
+  .photoCredit{
+    color: white;
+    position: absolute;
+    top: 1000px;
+  }
+
+  .rosaryFrontPage{
+    background-image: url(../pictures/thekidsblue.jpg);
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    background-color: rgb(83, 91, 167);
+    position: relative;
+    }
+
+.spotify{
+    position: absolute;
+    top: 1065px;
+    width: 100%;
+}
+
+.albumLink{
+    position: absolute;
+    top: 1065px;
+    left: 905px;
+    width: 100%;
+}
+
+.instagram-media{
+    position: absolute;
+    right: 900px;
+    top: -100px;
+  }
+
+.youTubeLink {
+    position: absolute;
+    top: 1550px;
+    left: 700px;
+  }
+
+.photoGallery img{
+    width: 450px;
+    height: auto;
+    margin: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    top: 1800px;
+    left: 50px;
+  }
+
+.photoHeader {
+    color: white;
+    text-shadow: 10px 10px 20px black;
+    font-family: 'fantasy', papyrus;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    position: relative;
+    top: 1300px;
+}
+
+.footer{
+    width:100%;
+    height: 100px;
+    display: block;
+    position: relative;
+    top: 1800px;
+  }
+
+.NBT{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
+  }
+
+.threeStars{
+    width: 25%;
+    height: auto;
+    position: relative;
+    top: 1850px;
+}
+
+.star1{
+    width: 10%;
+    height: auto;
+    position: relative;
+    top: 1575px;
+    left: 60%
+}
+
+.star2{
+    width: 10%;
+    height: auto;
+    position: relative;
+    top: 1650px;
+    left: 30%
+}
+
+.star3{
+    width: 10%;
+    height: auto;
+    position: relative;
+    top: 1565px;
+    left: 5%
+}
+
+.star4{
+    width: 8%;
+    height: auto;
+    position: relative;
+    top: 950px;
+    left: 0%
+}
+
+.star5{
+    width: 8%;
+    height: auto;
+    position: relative;
+    top: 950px;
+    left: 20%
+}
