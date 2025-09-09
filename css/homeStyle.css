@@ -32,7 +32,7 @@
 
 .navigation a{
     height: 100%;
-    display: table;
+    display: flex;
     float: left;
     padding: 0px 20px;
 }
@@ -105,13 +105,14 @@
 .spotify{
     position: absolute;
     top: 1065px;
+    left: 25px;
     width: 100%;
 }
 
 .albumLink{
     position: absolute;
     top: 1065px;
-    left: 905px;
+    left: 890px;
     width: 100%;
 }
 
