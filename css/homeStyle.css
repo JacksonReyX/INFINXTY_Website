@@ -1,5 +1,4 @@
-
-
+/* Author: Jackson Reynolds */
 nav a{
     font-family: 'fantasy', papyrus;
     display: flex;
@@ -9,6 +8,15 @@ nav a{
     color: white;
 }
 
+
+nav a:hover, nav a:focus{
+    display: block;
+    background-color: rgb(98, 98, 98);
+    transition: background-color 0.7s ease;
+}
+
+
+
 body{
     background-image: url(../pictures/snugShow.JPG);
     background-repeat: no-repeat;
@@ -17,7 +25,6 @@ body{
 }
 
 body img{
-    filter: invert(100%);
     width: 40%;
     margin-top: 3rem;
 }
@@ -41,6 +48,7 @@ iframe:first-child{
 
 #instagram{
     margin-top: 5rem;
+    margin-left: 2rem;
     width: 100%;
     display: flex;
     float: left;
@@ -48,7 +56,81 @@ iframe:first-child{
 
 #youtube{
     margin-top: 12.5rem;
+    position: absolute;
+    left: 54rem;
     float: right;
 }
 
+#youtube iframe{
+    position: absolute;
+    left: -12rem;
+    padding: 0;
+    margin: 0;
+}
+
+#star1{
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 93rem;
+    left: 47rem;
+}
+
+#star2{
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 93rem;
+    left: 75rem;
+}
+
+#star3{
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 93rem;
+    left: 60rem;
+}
+
+#star4{
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 132rem;
+    left: 70rem;
+}
+
+#star5{
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 132rem;
+    left: 52rem;
+}
+
+#threeStars{
+    width: 25%;
+    height: auto;
+    position: absolute;
+    top: 135rem;
+    left: 2rem;
+}
+
+#merch img{
+    width: 30%;
+    height: auto;
+    position: relative;
+    left: 60rem;
+    top: 5rem;
+}
+#merch h1{
+    position: relative;
+    left: 45rem;
+    top: 25rem;
+}
+
+#merch a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
 
