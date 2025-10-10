@@ -67,7 +67,6 @@ iframe:first-child{
     left: -12rem;
     padding: 0;
     margin: 0;
-    border: solid rgb(161, 12, 109) 10px
 }
 
 #star1{
@@ -210,6 +209,32 @@ a h3{
 a h3:hover, a h3:focus{
     color: rgb(0, 17, 255);
     transition: color 0.3s ease;
+}
+
+#khLogo{
+    margin: auto;
+    display: flex;
+    height: 10rem;
+    width: auto;
+    margin-top: 2rem;
+}
+
+#khBlock{
+    display: block;
+    width: 100%;
+    background-color: black;
+}
+
+#pictures{
+    display: flex;
+    margin-top: 3rem;
+}
+
+#pictures img{
+    width: 25%; 
+    height: auto;
+    margin: 0 1rem 0 1rem;
+    flex-basis: 33%;
 }
 
 footer{
