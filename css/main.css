@@ -1,21 +1,29 @@
 /* Author: Jackson Reynolds */
 nav a{
     font-family: 'fantasy', papyrus;
-    display: flex;
+    
     float: left;
     padding: 15px 20px;
     text-decoration: none;
     color: white;
 }
 
-
 nav a:hover, nav a:focus{
     display: block;
     background-color: rgb(98, 98, 98);
     transition: background-color 0.7s ease;
 }
+ul {
+    display: flex;
+}
 
+nav li{
+    list-style: none;
+}
 
+#current a{
+    color: rgb(170, 181, 254);
+}
 
 body{
     background-image: url(../pictures/snugShow.JPG);
@@ -45,6 +53,10 @@ body img{
 
 iframe:first-child{
     padding-right: 10rem;
+}
+
+iframe{
+    border: none;
 }
 
 #instagram{

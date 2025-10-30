@@ -1,0 +1,38 @@
+nav a{
+    font-family: 'fantasy', papyrus;
+    float: left;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover, nav a:focus{
+    display: block;
+    background-color: rgb(98, 98, 98);
+    transition: background-color 0.7s ease;
+}
+ul {
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+}
+
+#current a{
+    color: rgb(170, 181, 254);
+}
+
+body{
+    background-image: url("../pictures/thekidsblue.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: sans-serif, Optima;
+    font-size: 40px;
+    color: rgb(48, 131, 210);
+    text-align: center;
+    margin-top: 10rem;
+}
