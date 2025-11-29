@@ -1,0 +1,17 @@
+/* Author: Jackson Reynolds */
+body{
+    background-color: black;
+    background-image: url(../pictures/betsys2.JPG);
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+
+iframe{
+    margin: 0 1rem 0 1rem;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

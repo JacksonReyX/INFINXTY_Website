@@ -1,44 +1,38 @@
 /* Author: Jackson Reynolds */
-nav a{
-    font-family: 'fantasy', papyrus;
-    
-    float: left;
-    padding: 15px 20px;
-    text-decoration: none;
-    color: white;
-}
-
-nav a:hover, nav a:focus{
-    display: block;
-    background-color: rgb(98, 98, 98);
-    transition: background-color 0.7s ease;
-}
-ul {
-    display: flex;
-}
-
-nav li{
-    list-style: none;
-}
-
-#current a{
-    color: rgb(170, 181, 254);
-}
 
 body{
     background-image: url(../pictures/IMG_9430.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-color: rgb(92, 109, 217);
+    background-color: rgb(71, 71, 72);
     margin: 0;
 }
 
-#logoImg{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 0;
-   
+h1{
+    color: white;
+    text-align: center;
+    margin: 3rem;
+    font-size: 5rem;
+    text-shadow: 2px 2px black;
 }
+
+section{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    
+}
+
+section iframe{
+    flex-basis: 25%;
+    margin: 0 2rem 10rem 2rem;
+}
+
+section img{
+    width: 45%;
+    height: auto;
+    margin-top: 10rem;
+    margin: 10rem 3rem 0 1rem;
+}
+
