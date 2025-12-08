@@ -6,12 +6,17 @@ body{
    background-size: cover;
 }
 
-iframe{
-    margin: 0 1rem 0 1rem;
+.music-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 30px;
+  width: 90%;
+  margin: 0 auto;
+  justify-items: center;
 }
 
-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.music-grid iframe {
+  width: 100%;
+  max-width: 500px;
 }

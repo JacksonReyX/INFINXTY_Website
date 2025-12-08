@@ -1,0 +1,35 @@
+
+
+header, nav, button, iframe, blockquote, #stars 
+{
+    display: none;
+}
+
+/*
+*{
+    margin: auto;
+}
+img{
+    margin: 2rem;
+    position: absolute;
+    top: 10rem;
+}
+#khBlock{
+    position: relative;
+    top: 5rem;
+} */ 
+
+#spotifyCode{
+   
+    top: 8rem;
+} 
+
+body
+{
+    display: flex;
+}
+
+*
+{
+    margin: auto;
+}

@@ -228,3 +228,217 @@ footer{
     margin-top: 5px;
     text-align: center;
 }
+
+
+@media (max-width: 480px) 
+{
+
+    body {
+        background-size: cover;
+        background-position: center;
+    }
+
+    #logoImg img {
+        width: 80%;
+        margin-top: 2rem;
+    }
+
+    
+    #spotifyContent {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5rem;
+        gap: 2rem;
+    }
+
+    #spotifyContent iframe {
+        width: 90% !important;
+        height: 200px !important;
+        padding-right: 0;
+    }
+
+    
+    #instagram {
+        margin: 2rem 0;
+        float: none;
+        justify-content: center;
+    }
+
+  
+    #youtube {
+        position: static;
+        margin-top: 2rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #youtube iframe {
+        width: 90% !important;
+        height: 200px !important;
+        position: static;
+    }
+
+    
+    #stars img {
+        display: none;
+    }
+
+    
+    #merchButton,
+    #bandcampButton,
+    #linktree {
+        position: static;
+        margin: 1rem auto;
+        display: block;
+        width: 80%;
+    }
+
+    #shirtPhoto {
+        width: 80%;
+        margin: 1rem auto;
+        display: block;
+    }
+
+    
+    #spotifyCode {
+        width: 70%;
+        position: static;
+        margin: 1rem auto;
+        display: block;
+    }
+
+    a h3 {
+        position: static;
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+
+   
+    #khLogo {
+        height: 6rem;
+        margin-top: 1rem;
+    }
+
+   
+    #pictures {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #pictures img {
+        width: 90%;
+        margin: 0.5rem 0;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    body {
+        background-size: cover;
+        background-position: center;
+    }
+
+    #logoImg img {
+        width: 55%;
+        margin-top: 3rem;
+    }
+
+    
+    #spotifyContent {
+        margin-top: 8rem;
+        gap: 3rem;
+        justify-content: center;
+    }
+
+    #spotifyContent iframe {
+        width: 350px !important;
+        height: 250px !important;
+    }
+
+    
+    #instagram {
+        float: none;
+        justify-content: center;
+        margin: 2rem auto;
+    }
+
+    
+    #youtube {
+        position: static;
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #youtube iframe {
+        width: 500px !important;
+        height: 300px !important;
+    }
+
+    
+    #stars img {
+        width: 200px;
+    }
+
+    #stars .starImg:first-child {
+        position: absolute;
+        left: 2rem;
+        top: 12rem;
+    }
+
+    #stars .starImg:last-child {
+        position: absolute;
+        right: 2rem;
+        top: 14rem;
+    }
+
+   
+    #merchButton, #bandcampButton, #linktree {
+        width: 60%;
+        position: static;
+        display: block;
+        margin: 1.5rem auto;
+    }
+
+    #shirtPhoto {
+        width: 55%;
+        margin: 2rem auto;
+        display: block;
+    }
+
+    #spotifyCode {
+        width: 45%;
+        position: static;
+        margin: 1rem auto;
+        display: block;
+    }
+
+    a h3 {
+        position: static;
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+
+    
+    #khLogo {
+        height: 8rem;
+        margin-top: 1.5rem;
+    }
+
+    
+    #pictures {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    #pictures img {
+        width: 45%;
+        margin: 0;
+    }
+}
+
